@@ -43,10 +43,10 @@ RM = /home/hawking/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hawking/workspace/my_code/cpp/RootProjects
+CMAKE_SOURCE_DIR = /home/hawking/workspace/my_code/phys-analysis-rootframework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hawking/workspace/my_code/cpp/RootProjects/cmake-build-debug
+CMAKE_BINARY_DIR = /home/hawking/workspace/my_code/phys-analysis-rootframework/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Stuff1.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Stuff1.dir/flags.make
 
 CMakeFiles/Stuff1.dir/main.cpp.o: CMakeFiles/Stuff1.dir/flags.make
 CMakeFiles/Stuff1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hawking/workspace/my_code/cpp/RootProjects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Stuff1.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Stuff1.dir/main.cpp.o -c /home/hawking/workspace/my_code/cpp/RootProjects/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hawking/workspace/my_code/phys-analysis-rootframework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Stuff1.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Stuff1.dir/main.cpp.o -c /home/hawking/workspace/my_code/phys-analysis-rootframework/main.cpp
 
 CMakeFiles/Stuff1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Stuff1.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hawking/workspace/my_code/cpp/RootProjects/main.cpp > CMakeFiles/Stuff1.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hawking/workspace/my_code/phys-analysis-rootframework/main.cpp > CMakeFiles/Stuff1.dir/main.cpp.i
 
 CMakeFiles/Stuff1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Stuff1.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hawking/workspace/my_code/cpp/RootProjects/main.cpp -o CMakeFiles/Stuff1.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hawking/workspace/my_code/phys-analysis-rootframework/main.cpp -o CMakeFiles/Stuff1.dir/main.cpp.s
 
 CMakeFiles/Stuff1.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Stuff1.dir/main.cpp.o.provides.build: CMakeFiles/Stuff1.dir/main.cpp.
 
 CMakeFiles/Stuff1.dir/astro.cpp.o: CMakeFiles/Stuff1.dir/flags.make
 CMakeFiles/Stuff1.dir/astro.cpp.o: ../astro.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hawking/workspace/my_code/cpp/RootProjects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Stuff1.dir/astro.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Stuff1.dir/astro.cpp.o -c /home/hawking/workspace/my_code/cpp/RootProjects/astro.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hawking/workspace/my_code/phys-analysis-rootframework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Stuff1.dir/astro.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Stuff1.dir/astro.cpp.o -c /home/hawking/workspace/my_code/phys-analysis-rootframework/astro.cpp
 
 CMakeFiles/Stuff1.dir/astro.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Stuff1.dir/astro.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hawking/workspace/my_code/cpp/RootProjects/astro.cpp > CMakeFiles/Stuff1.dir/astro.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hawking/workspace/my_code/phys-analysis-rootframework/astro.cpp > CMakeFiles/Stuff1.dir/astro.cpp.i
 
 CMakeFiles/Stuff1.dir/astro.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Stuff1.dir/astro.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hawking/workspace/my_code/cpp/RootProjects/astro.cpp -o CMakeFiles/Stuff1.dir/astro.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hawking/workspace/my_code/phys-analysis-rootframework/astro.cpp -o CMakeFiles/Stuff1.dir/astro.cpp.s
 
 CMakeFiles/Stuff1.dir/astro.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Stuff1.dir/astro.cpp.o.provides.build: CMakeFiles/Stuff1.dir/astro.cp
 
 CMakeFiles/Stuff1.dir/root.cpp.o: CMakeFiles/Stuff1.dir/flags.make
 CMakeFiles/Stuff1.dir/root.cpp.o: ../root.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hawking/workspace/my_code/cpp/RootProjects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Stuff1.dir/root.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Stuff1.dir/root.cpp.o -c /home/hawking/workspace/my_code/cpp/RootProjects/root.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hawking/workspace/my_code/phys-analysis-rootframework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Stuff1.dir/root.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Stuff1.dir/root.cpp.o -c /home/hawking/workspace/my_code/phys-analysis-rootframework/root.cpp
 
 CMakeFiles/Stuff1.dir/root.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Stuff1.dir/root.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hawking/workspace/my_code/cpp/RootProjects/root.cpp > CMakeFiles/Stuff1.dir/root.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hawking/workspace/my_code/phys-analysis-rootframework/root.cpp > CMakeFiles/Stuff1.dir/root.cpp.i
 
 CMakeFiles/Stuff1.dir/root.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Stuff1.dir/root.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hawking/workspace/my_code/cpp/RootProjects/root.cpp -o CMakeFiles/Stuff1.dir/root.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hawking/workspace/my_code/phys-analysis-rootframework/root.cpp -o CMakeFiles/Stuff1.dir/root.cpp.s
 
 CMakeFiles/Stuff1.dir/root.cpp.o.requires:
 
@@ -143,7 +143,7 @@ Stuff1: CMakeFiles/Stuff1.dir/astro.cpp.o
 Stuff1: CMakeFiles/Stuff1.dir/root.cpp.o
 Stuff1: CMakeFiles/Stuff1.dir/build.make
 Stuff1: CMakeFiles/Stuff1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hawking/workspace/my_code/cpp/RootProjects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Stuff1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hawking/workspace/my_code/phys-analysis-rootframework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Stuff1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Stuff1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -162,6 +162,6 @@ CMakeFiles/Stuff1.dir/clean:
 .PHONY : CMakeFiles/Stuff1.dir/clean
 
 CMakeFiles/Stuff1.dir/depend:
-	cd /home/hawking/workspace/my_code/cpp/RootProjects/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hawking/workspace/my_code/cpp/RootProjects /home/hawking/workspace/my_code/cpp/RootProjects /home/hawking/workspace/my_code/cpp/RootProjects/cmake-build-debug /home/hawking/workspace/my_code/cpp/RootProjects/cmake-build-debug /home/hawking/workspace/my_code/cpp/RootProjects/cmake-build-debug/CMakeFiles/Stuff1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hawking/workspace/my_code/phys-analysis-rootframework/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hawking/workspace/my_code/phys-analysis-rootframework /home/hawking/workspace/my_code/phys-analysis-rootframework /home/hawking/workspace/my_code/phys-analysis-rootframework/cmake-build-debug /home/hawking/workspace/my_code/phys-analysis-rootframework/cmake-build-debug /home/hawking/workspace/my_code/phys-analysis-rootframework/cmake-build-debug/CMakeFiles/Stuff1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Stuff1.dir/depend
 

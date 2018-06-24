@@ -29,7 +29,7 @@ void Root::plotGraph(const char *plotName, const char *plotTitle) {
    gr->SetTitle(plotTitle);
    gr->GetXaxis()->SetTitle("X title");
    gr->GetYaxis()->SetTitle("Y title");
-   gr->Draw("AC");
+   gr->Draw("AF");
    c1->Update();
    c1->Modified();
 
