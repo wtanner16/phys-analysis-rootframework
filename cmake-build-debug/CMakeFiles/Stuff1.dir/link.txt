@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Stuff1.dir/main.cpp.o CMakeFiles/Stuff1.dir/astro.cpp.o CMakeFiles/Stuff1.dir/root.cpp.o  -o Stuff1 
