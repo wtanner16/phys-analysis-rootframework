@@ -24,6 +24,7 @@ using std::string;
 #include "TVectorT.h"
 #include "TVectorF.h"
 #include "TVectorD.h"
+#include <TGraphErrors.h>
 
 
 #include <vector>
@@ -56,10 +57,15 @@ public:
     // constructor for TMultigraph
     Root(const vector<float>&, const vector<float>&, const vector<float>&, const vector<float>&);
 
-
+// test constructor
     Root(const string&);
             // methods
     void plotGraph(const char*, const char*);
+    void plotMultiGraph(const char*, const char*);
+
+    void addLegend();
+
+
     void plotGraph2D();
     void setXaxisTitle(const char*);
     void setYaxisTitle(const char*);
