@@ -25,7 +25,13 @@ using std::string;
 #include "TVectorF.h"
 #include "TVectorD.h"
 #include <TGraphErrors.h>
+#include <TLegend.h>
 
+// gsl functions
+#include <gsl/gsl_integration.h>
+#include <gsl/gsl_errno.h>
+#include <gsl/gsl_matrix.h>
+#include <gsl/gsl_odeiv2.h>
 
 #include <vector>
 using std::vector;
@@ -59,9 +65,11 @@ public:
 
 // test constructor
     Root(const string&);
-            // methods
+
+    // methods
     void plotGraph(const char*, const char*);
     void plotMultiGraph(const char*, const char*);
+    void plotDemo();
 
     void addLegend();
 
@@ -69,7 +77,6 @@ public:
     void plotGraph2D();
     void setXaxisTitle(const char*);
     void setYaxisTitle(const char*);
-
 
 
 private:

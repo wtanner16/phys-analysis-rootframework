@@ -31,10 +31,12 @@ int main(int argc, char **argv) {
 
 
     Root Test(x, y, x1, y1);
-    Test.setXaxisTitle("x-axis");
-    Test.setYaxisTitle("cos(x)");
+
+    Test.plotDemo();
+//    Test.setXaxisTitle("x-axis");
+  //  Test.setYaxisTitle("cos(x)");
     //Test.plotGraph(name, title);
-    Test.plotMultiGraph("plot 2" ,"Plot of sine and cosine" );
+//    Test.plotMultiGraph("plot 2" ,"Plot of sine and cosine" );
     theApp.Run();
 
     return 0;

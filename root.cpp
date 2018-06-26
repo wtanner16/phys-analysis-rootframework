@@ -36,6 +36,7 @@ void Root::plotGraph(const char *plotName, const char *plotTitle) {
     c1->SetGrid();
 
     TGraph *gr = new TGraph(n, &xfloat_[0], &yfloat_[0]);
+    gr->Delete();
     gr->SetLineColor(1);
     gr->SetLineWidth(2);
     gr->SetMarkerColor(4);
@@ -52,6 +53,7 @@ void Root::plotMultiGraph(const char *plotName, const char *plotTitle) {
     TCanvas *c1 = new TCanvas(plotName, plotTitle, 200, 10, 700, 500);
     c1->SetGrid();
     c1->SetFillColor(10);
+    c1->Divide(2,4);
 
     TMultiGraph *mg = new TMultiGraph();
 
@@ -60,17 +62,24 @@ void Root::plotMultiGraph(const char *plotName, const char *plotTitle) {
 
     // create graphs
     TGraph *gr1 = new TGraph(n, &x1m_[0], &y1m_[0]);
-    gr1->SetLineColor(2);
+    gr1->SetLineColor(9);
+    gr1->SetLineWidth(2);
    // mg->Add(gr1);
    // gr1->SetDrawOption("AP");
     // gr1->Draw("AC");
 
 
     TGraph *gr2 = new TGraph(n, &x2m_[0], &y2m_[0]);
-    gr2->SetLineColor(4);
+    gr2->SetLineColor(5);
     mg->Add(gr1);
     mg->Add(gr2);
 
+    // set up a legend
+    TLegend* legend = new TLegend(0.1, 0.7, 0.48, 0.9);
+    legend->SetHeader("Legend", "C");
+    legend->AddEntry("f1","Function abs(#frac{sin(x)}{x})","l");
+
+    legend->Draw();
     mg->Draw("ALP");
     // c1->BuildLegend();
 
@@ -78,6 +87,17 @@ void Root::plotMultiGraph(const char *plotName, const char *plotTitle) {
      c1->Modified();
     // gPad->Update();
     // gPad->Modified();
+}
+
+    void Root::plotDemo() {
+    TCanvas *c = new TCanvas("c", "Demo", 200, 10, 700, 500);
+    c->Divide(3,2);
+    c->cd(1);
+    gPad->Divide(2,1);
+
+     c->Update();
+     c->Modified();
+
 }
     // create new graph object
 
