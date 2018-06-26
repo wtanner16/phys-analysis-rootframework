@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/root 
+CXX_INCLUDES = -I/usr/include/root -I/usr/include/gsl 
 
