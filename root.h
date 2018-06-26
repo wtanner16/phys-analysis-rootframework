@@ -39,18 +39,44 @@ public:
     // for vectors declared as doubles
    // Root(TVectorD& vxDouble, TVectorD& vyDouble);
 
-   Root(TVectorD &, TVectorD &);
-    Root(const vector<float>&, const vector<float>&);
+  // Root(TVectorD &, TVectorD &);
+
+    // constructor for single plot
+ //   Root(const vector<float>&, const vector<float>&);
+
+    // main constructor
 
     Root() = default; // default constructor
+    Root(const vector<float>&, const vector<float>&);
 
+
+    // constructor for TGraph
+
+
+    // constructor for TMultigraph
+    Root(const vector<float>&, const vector<float>&, const vector<float>&, const vector<float>&);
+
+
+    Root(const string&);
             // methods
     void plotGraph(const char*, const char*);
     void plotGraph2D();
+    void setXaxisTitle(const char*);
+    void setYaxisTitle(const char*);
+
+
 
 private:
-    const vector<float>& xfloat_;
-    const vector<float>& yfloat_;
+    const vector<float>& xfloat_{};
+    const vector<float>& yfloat_{};
+    const vector<float>& x1m_{};
+    const vector<float>& x2m_{};
+    const vector<float>& y1m_{};
+    const vector<float>& y2m_{};
+    const string& str_{};
+
+    const char* xtitle_;
+    const char* ytitle_;
 
    // TVectorF vxfloat_, vyfloat_;
    // TVectorD vxdouble_, vydouble_;

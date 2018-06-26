@@ -30,6 +30,8 @@ int main(int argc, char **argv) {
 
 
     Root Test(x, y);
+    Test.setXaxisTitle("x-axis");
+    Test.setYaxisTitle("cos(x)");
     Test.plotGraph(name, title);
 
     theApp.Run();
